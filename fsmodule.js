@@ -13,3 +13,5 @@ console.log(buffer_data.toString())
 // rename a file
 
 fs.renameSync("dummy.txt","namechanged.txt")
+
+fs.mkdirSync("random")
